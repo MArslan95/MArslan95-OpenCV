@@ -13,7 +13,7 @@ pts = np.array([[50, 45], [40, 30], [70, 40], [50, 60]], np.int32)
 # if we want to reshape the point
 # pts=pts.reshape((-1,1,2))
 cv2.polylines(image, [pts], True, (0, 255, 255), 5)
-
+ 
 font = cv2.FONT_HERSHEY_SIMPLEX
 cv2.putText(image, "Open Cv Tuts!", (0, 130),
             font, 1, (200, 0, 0), 2, cv2.LINE_AA)
