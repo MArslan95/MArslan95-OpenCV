@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 img1 = cv2.imread('3D-Matplotlib.png')
-img2 = cv2.imread('watch.jpg')
+img2 = cv2.imread('mainlogo.png')
 rows, cols, channels = img2.shape
 roi = img1[0:rows, 0:cols]
 img2gray = cv2.cvtColor(img2, cv2.COLOR_BGR2GRAY)
